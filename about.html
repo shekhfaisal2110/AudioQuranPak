@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Quran Player</title>
+    <link rel="stylesheet" href="./style/about.css">
+    <link rel="icon" href="./logo/icon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="about-container">
+        <div class="about-details" id="aboutDetails">
+            <h1>About the App</h1>
+            <p>The Quran Player is an interactive audio player designed to provide users with an easy way to listen to the Quran. It features a user-friendly interface, allowing users to navigate through different Surahs, control playback, and adjust volume settings.</p>
+            <h2>Features</h2>
+            <ul>
+                <li>Play, pause, and navigate through Surahs.</li>
+                <li>Volume control with mute functionality.</li>
+                <li>Dynamic display of the currently playing Surah.</li>
+                <li>Attractive UI with smooth animations.</li>
+            </ul>
+        </div>
+        <div class="back-button-container">
+            <button class="back-button" onclick="goBack()">Back to Player</button>
+        </div>
+
+        <div class="developer-details" id="developerDetails" style="display: none;">
+            <h1>About the Developer</h1>
+            <img src="./logo/developer.jpeg" alt="Developer Image" class="developer-image">
+            <h2>Front-End Developer</h2>
+            <p>This project was developed by Shekh Faisal, a passionate developer dedicated to enhancing the experience of listening to the Quran. The goal is to make it accessible and enjoyable for everyone.</p>
+                <div class="contact-section">
+                    <h2>Contact</h2>
+                    <p>If you have any questions or feedback, feel free to reach out!</p>
+                    <div class="contact-info">
+                        <a href="mailto:shekhfaisal.2110@gmail.com" class="contact-link" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/faisal-shaikh-3064583a4" target="_blank" class="contact-link" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/_shaikh__sahab_19_8?igsh=N3M5a3FvZGxpN290" target="_blank" class="contact-link" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        <div class="back-button-container">
+            <button class="back-button" onclick="goBack()">Back to Player</button>
+        </div>
+        <div class="toggle-icon" onclick="toggleDetails()">
+            <i class="fas fa-chevron-down" id="toggleIcon"></i>
+        </div>
+    </div>
+    
+
+    <script src="./script/about.js"></script>
+</body>
+</html> 

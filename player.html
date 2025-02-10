@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quran Player</title>
+    <link rel="icon" href="./logo/icon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/player.css">
+</head>
+<body>
+    <div class="player-container">
+        <div class="player-header">
+            <button class="back-button" onclick="goBack()">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back</span>
+            </button>
+            <h1 class="Surah-title" id="Surah-title"></h1>
+        </div>
+
+        <div class="track-info">
+            <div class="surah-number" id="surah-number"></div>
+            <h2 class="track-name" id="track-name"></h2>
+        </div>
+
+        <div class="progress-container" id="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+            <div class="time-display">
+                <span id="current-time">00:00</span>
+                <span id="total-time">00:00</span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="control-button" id="prev-btn" onclick="previousSurah()">
+                <i class="fas fa-backward"></i>
+            </button>
+            <button class="control-button main-control play-pause-btn" id="play-pause-btn">
+                <i class="fas fa-play" id="play-icon"></i>
+            </button>
+            <button class="control-button" id="next-btn" onclick="nextSurah()">
+                <i class="fas fa-forward"></i>
+            </button>
+        </div>
+
+        <div class="extra-controls">
+            <button class="control-button" id="volume-btn">
+                <i class="fas fa-volume-up"></i>
+            </button>
+            <div class="volume-slider">
+                <input type="range" id="volume-control" min="0" max="100" value="100">
+            </div>
+        </div>
+
+        <audio id="audio-player">
+            <source id="audio-source" src="" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <!-- About Us Button -->
+    <div class="about-us-button-container">
+        <button class="about-us-button">About Us</button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./script/player.js"></script>
+</body>
+</html>
