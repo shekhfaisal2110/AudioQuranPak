@@ -1,5 +1,5 @@
 const SurahData = [
-  { id: 1, name: "Al-Fatihah", englishName: "The Opening", numberOfAyahs: 7, file: "./Surah_mp3/001.mp3", duration: "00:00:51" },
+  { id: 1, name: "Al-Fatihah", englishName: "The Opening", numberOfAyahs: 7, file: "./Surahmp3/001.mp3", duration: "00:00:51" },
   { id: 2, name: "Al-Baqarah", englishName: "The Cow", numberOfAyahs: 286, file: "./Surah_mp3/002.mp3", duration: "2:05:39" },
   { id: 3, name: "Āl 'Imran", englishName: "Family of Imran", numberOfAyahs: 200, file: "./Surah_mp3/003.mp3", duration: "1:17:29" },
   { id: 4, name: "An-Nisa", englishName: "The Women", numberOfAyahs: 176, file: "./Surah_mp3/004.mp3", duration: "1:19:45" },
