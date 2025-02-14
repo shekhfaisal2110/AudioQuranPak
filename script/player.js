@@ -1,6 +1,6 @@
 // Surah data array
 let SurahData = [
-  { id: 1, name: "Al-Fatihah", file: "./Surah_mp3/001.mp3" },
+  { id: 1, name: "Al-Fatihah", file: "./Surahmp3/001.mp3" },
   { id: 2, name: "Al-Baqarah", file: "./Surah_mp3/002.mp3" },
   { id: 3, name: "Āl 'Imran", file: "./Surah_mp3/003.mp3" },
   { id: 4, name: "An-Nisa", file: "./Surah_mp3/004.mp3" },
