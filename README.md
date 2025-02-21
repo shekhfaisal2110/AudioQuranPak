@@ -4,7 +4,7 @@ Welcome to **Audio Quran Pak**! This project provides access to the Quranic reci
 
 ### Link
 You can visit the live site here:  
-[Audio Quran Pak](https://shekhfaisal2110.github.io/AudioQuranPak/)
+[Audio Quran Pak](https://audioquranpak.netlify.app/)
 
 ---
 
